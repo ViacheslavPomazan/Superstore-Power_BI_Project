@@ -29,7 +29,7 @@ Based on the sample_-_superstore.xls dataset (Orders, People, Returns), I perfor
 
 ## DAX Formulas 💼
 
-DAX allowed me to calculate aggregated measures, perform cohort analysis, and generate trend analyses. Some examples:
+DAX allowed me to calculate aggregated measures, perform cohort analysis and сreate slicers for dynamic measure selection in visuals. Some examples:
 
 <details>
 <summary>Share of sales with discount</summary>
@@ -71,6 +71,24 @@ RETURN
 DIVIDE(
     COUNTROWS(INTERSECT(cohortCustomers, activeCustomers)),
     COUNTROWS(cohortCustomers)
+)
+```
+</details>
+
+<details>
+<summary>Metric selector</summary>
+
+```
+Selected Metric Retention =
+SELECTEDVALUE('Metric Selector Retension'[Metric], "Total Sales")
+
+Dynamic Metric Retention =
+SWITCH(
+    [Selected Metric Retention],
+    "Total Sales", [Total Sales],
+    "Total Profit", [Total Profit],
+    "Number of Customers", [Number of Customers],
+    BLANK()
 )
 ```
 </details>
