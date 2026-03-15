@@ -92,3 +92,7 @@ SWITCH(
 )
 ```
 </details>
+
+## Feedback and Collaboration 🙌
+
+If you have any feedback regarding the data modeling, DAX formulas, or visualization choices, please open an issue or reach out to me directly. I'm also open to collaboration and welcome any contributions that could enhance the report's functionalities!
