@@ -11,6 +11,9 @@ Welcome to the GitHub repository for my Power BI project - a Superstore Report!
 ![Analysis](images/Super-store_Analysis.jpg)
 --------------------------------------------------------------------------------------------------------------------------------------------
 
+👉[Watch Power BI report video review](https://drive.google.com/file/d/1YrLagD6Z-jVq-AdMNO9RJ_8OkELC61hw/view?usp=sharing)
+
+
 ## Data Source Description 📂  
 
 Superstore Sales is a training dataset bundled with Tableau. It is not a real-world dataset but a realistic simulation of a retail company operating in the US. The dataset covers Furniture, Office Supplies, and Technology products and includes all standard business metrics:\
